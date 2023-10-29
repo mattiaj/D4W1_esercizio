@@ -1,0 +1,159 @@
+body {
+    max-width: 100%;
+    margin: auto;
+    background-color: #E9EDF0;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+#top-bar {
+    background-color: #233040;
+    height: 70px;
+    position: relative;
+}
+#amazon-logo {
+    width: 140px;
+    position: absolute;
+    top: 8px;
+    left: 40px
+}
+#under-top {
+    background-color: #364757;
+    height: 30px;
+    position:relative
+}
+#under-top p {
+    position: absolute;
+    margin: 0;
+    top: 4px;
+}
+#under-top span {
+    color: white;
+    padding: 20px
+    ;
+}
+main {
+  margin: 15px
+}
+#shop {
+    background-color: #F56600;
+    height: 35px;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+#shop p {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 8px;
+    left: 44%;
+}
+#first-banner {
+    height: 120px;
+}
+#first-banner-image {
+    background-image: url(assets/bg-image.png);
+    background-size: 93%;
+    height: 100%;
+    text-align: center;
+}
+#first-banner h3 {
+    color: white;
+    padding-top: 30px;
+    font-size: 1.5em;
+}
+#first-banner p {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+#article1-container {
+    background-color: white;
+    margin-top: 20px;
+}
+#article1 h4 {
+    display: inline-block;
+    padding-left: 20px;
+}
+#article1 p {
+    display: inline-block;
+    padding-left: 20px;
+    color: #0A6671;
+}
+.article1-img {
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.change {
+    cursor: pointer;
+}
+#vr-img-container img {
+    width: 100%;
+    height: 360px;
+}
+#vr-img-container {
+    margin-top: 20px;
+}
+#vr-img-txt {
+    text-align: center;
+    padding-top: 0;
+    margin: 0;
+}
+#vr-img-txt h4 {
+    display: inline-block;
+    margin: 0;
+}
+#vr-img-txt p {
+    display: inline-block;
+    color: #0A6671;
+    padding-left: 20px;
+    margin: 0;
+}
+#music-img-container img {
+    width: 100%;
+    height: 360px;
+}
+#music-img-container {
+    margin-top: 20px;
+}
+#music-img-txt {
+    text-align: center;
+    padding-top: 0;
+    margin: 0;
+}
+#music-img-txt h4 {
+    display: inline-block;
+    margin: 0;
+}
+#music-img-txt p {
+    display: inline-block;
+    color: #0A6671;
+    padding-left: 20px;
+    margin: 0;
+}
+#banner-link {
+    background-color: #364757;
+    height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+#banner-link a:link, #banner-link a:visited {
+    color: white;
+}
+#banner-link p {
+    padding-top: 4px;
+}
+#banner-bar {
+    background-color: #233040;
+    height: 140px;
+    position: relative;
+}
+#banner-amazon {
+    position: absolute;
+    width: 160px;
+    top: 38%;
+    left: 45%;
+}
